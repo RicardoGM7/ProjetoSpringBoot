@@ -1,4 +1,4 @@
-# ProjetoSpring
+# API de Gerenciamento de Pedidos
 
 API REST de um sistema de pedidos desenvolvida com Spring Boot, Java, JPA e PostgreSQL. A aplicação modela usuários, produtos, categorias, pedidos, itens de pedido e pagamentos, disponibilizando operações de consulta para o catálogo e pedidos, além de operações CRUD para usuários.
 
