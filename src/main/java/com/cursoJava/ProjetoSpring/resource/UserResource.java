@@ -23,7 +23,7 @@ public class UserResource {
     public ResponseEntity<List<User>> findAll() {
         List<User> list = Service.findAll();
         return ResponseEntity.ok().body(list);
-    };
+    }
 
     @GetMapping(value = "/{id}") // metodo get com argumento
     public ResponseEntity<User> findById(@PathVariable Long id){ // determina que o id é o parametro da URL
